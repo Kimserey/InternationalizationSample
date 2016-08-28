@@ -1,0 +1,30 @@
+{
+  "name": "internationalizationsample",
+  "homepage": "https://github.com/Kimserey/InternationalizationSample",
+  "authors": [
+    "Kimserey LAM"
+  ],
+  "description": "Internationalization sample",
+  "main": "Content/InternationalizationSample.js",
+  "keywords": [
+    "i18n",
+    "F#",
+    "WebSharper"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "numeral": "^1.5.3",
+    "moment": "^2.14.1",
+    "i18next": "^3.4.1",
+    "jquery-i18next": "^1.1.0",
+    "jquery": "^3.1.0"
+  }
+}
