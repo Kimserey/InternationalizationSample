@@ -80,7 +80,7 @@ type Localizer =
                 translate({
                     el: $(this),
                     value:  function(data) { return data.translateDate; },
-                    format: function(data) { return data.translateDateFormat || "YYYY-MM-DD"; },
+                    format: function(data) { return data.translateFormat || "YYYY-MM-DD"; },
                     execute: function(value, format) {
                         return moment(value).format(format);
                     }
@@ -92,7 +92,7 @@ type Localizer =
                 translate({
                     el: $(this),
                     value:  function(data) { return data.translateNumeric; },
-                    format: function(data) { return data.translateNumericFormat || "0,0.00"; },
+                    format: function(data) { return data.translateFormat || "0,0.00"; },
                     execute: function(value, format) {
                         return numeral(value).format(format);
                     }
