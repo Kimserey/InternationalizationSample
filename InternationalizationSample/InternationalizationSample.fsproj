@@ -108,6 +108,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup>
+    <Content Include="localizer-tpl.html" />
     <Compile Include="Language.fs" />
     <Compile Include="Localizer.fs" />
     <Compile Include="Client.fs" />
@@ -115,7 +116,6 @@
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Compile Include="Global.asax.fs" />
-    <Content Include="localizer-tpl.html" />
     <Content Include="packages.config" />
     <Content Include="bower.json" />
   </ItemGroup>

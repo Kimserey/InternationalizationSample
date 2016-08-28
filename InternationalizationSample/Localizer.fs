@@ -72,7 +72,6 @@ type Localizer =
                 return;
             }
 
-
             //Translates text JQuery
             $('body').localize();
                 

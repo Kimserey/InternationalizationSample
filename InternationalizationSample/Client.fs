@@ -17,7 +17,7 @@ module Client =
     **)
     let languages =
         [
-            { Name = "en-gb"
+            { Name = "en-GB"
               Translation = { Div = { Text = "Hello!" } } }
 
             { Name = "fr"
