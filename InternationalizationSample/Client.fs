@@ -43,7 +43,7 @@ module Client =
         
         LocalizerTpl.Number.Doc(
             number = "100000000.02",
-            format = "0,0.0"
+            format = "$0,0.0"
         )
         |> Doc.RunById "number-test"
 
