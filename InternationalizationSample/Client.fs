@@ -17,7 +17,7 @@ module Client =
     **)
     let languages =
         [
-            { Name = "en-GB"
+            { Name = "en-gb"
               Translation = { Div = { Text = "Hello!" } } }
 
             { Name = "fr"
@@ -51,7 +51,7 @@ module Client =
         divAttr 
             [ on.afterRender(fun e -> 
                 Localizer.Init languages
-                Localizer.Localize("en-GB")
+                Localizer.Localize("en-gb")
               ) ]
-            [ makeTranslationButton "en-GB"; makeTranslationButton "fr" ]
+            [ makeTranslationButton "en-gb"; makeTranslationButton "fr" ]
         |> Doc.RunById "main"
